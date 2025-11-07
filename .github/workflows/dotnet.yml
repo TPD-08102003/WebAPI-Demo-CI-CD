@@ -30,7 +30,7 @@ jobs:
       run: |
         curl -X POST \
           -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
-          https://api.render.com/v1/services/srv-d45njeje5dus73c9jd20/deploys
+          https://api.render.com/v1/services/srv-d46mt0fdiees73d8v6mg/deploys
 
     # - name: Azure Login
     #   uses: azure/login@v1
